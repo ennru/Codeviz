@@ -1,0 +1,2 @@
+REM neato 
+dot -Tpng -otest.png source.dot
