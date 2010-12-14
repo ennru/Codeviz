@@ -1,4 +1,4 @@
 # converts output graph to image
 # requires http://www.graphviz.org/
-REM neato 
-dot -Tpng -osource.png source.dot
+# for big graphs try neato -Tpng -osource.png source.dot #
+dot -Tpng -osource.png source.dot #
