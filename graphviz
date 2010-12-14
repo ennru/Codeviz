@@ -1,2 +1,4 @@
+# converts output graph to image
+# requires http://www.graphviz.org/
 REM neato 
-dot -Tpng -otest.png source.dot
+dot -Tpng -osource.png source.dot

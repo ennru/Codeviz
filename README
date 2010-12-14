@@ -1,5 +1,14 @@
 Codeviz - visualizes code dependencies as graphs
 
+Follows code dependencies through 
+* JVM class files
+* EJBs assuming a naming scheme
+* JSP pages
+* JSP include files
+* JavaScript files
+* Struts2/Webwork2 configurations
+
+
 GraphViz is used for graph visualization
 see http://www.graphviz.org/
   
