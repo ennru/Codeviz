@@ -1,6 +1,6 @@
 package codeviz
 
-abstract case class CodeNode(val name: String)
+abstract class CodeNode(val name: String)
 
 case class ActionName(override val name: String) extends CodeNode(name)
 
