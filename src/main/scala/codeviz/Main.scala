@@ -12,13 +12,13 @@ object Main {
   import java.io.File
 
   def doWork() : Unit = {
-    val panRootDir = "/Users/ennorunne/workspace201011/codeviz/" 
+    val panRootDir = "/Users/ennorunne/workspace201105/Codeviz/" 
     val panDir = panRootDir + "src/main/scala/" 
 
     val scanWebApps = false
 
     val classDirs = 
-        new File(panRootDir + "target/classes/") ::
+        new File(panRootDir + "target/scala_2.9.0/classes/") ::
         Nil
     
 //    val xworkFilenames =
