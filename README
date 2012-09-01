@@ -12,3 +12,6 @@ Follows code dependencies through
 GraphViz is used for graph visualization
 see http://www.graphviz.org/
   
+ASM 4.0 is used for class file analysis
+http://asm.ow2.org/
+add asm-4.0.jar and asm-commons-4.0.jar in lib directory
